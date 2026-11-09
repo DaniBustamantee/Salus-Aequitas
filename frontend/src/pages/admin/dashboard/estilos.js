@@ -1,0 +1,28 @@
+import { estilosComunes } from "../../../styles/estilosComunes"
+
+export const estilos = {
+  ...estilosComunes,
+  encabezado: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "2rem" },
+  botonActualizar: { padding: "0.5rem 1rem", backgroundColor: "var(--bg-surface)", border: "1.5px solid var(--border)", borderRadius: "var(--radius-md)", fontSize: "0.82rem", fontWeight: "600", color: "var(--text-secondary)", cursor: "pointer" },
+  alertaBanner: { display: "flex", alignItems: "flex-start", gap: "0.75rem", backgroundColor: "var(--crema)", border: "1px solid var(--naranja)", borderRadius: "var(--radius-lg)", padding: "1rem 1.25rem", marginBottom: "1.25rem", boxShadow: "var(--shadow-naranja)" },
+  alertaTitulo: { fontSize: "0.875rem", fontWeight: "700", color: "var(--naranja-oscuro)" },
+  chipLote: { display: "inline-block", padding: "0.25rem 0.7rem", borderRadius: "var(--radius-sm)", fontSize: "0.78rem", fontWeight: "600" },
+  cardPert: { backgroundColor: "var(--bg-surface)", borderRadius: "var(--radius-lg)", boxShadow: "var(--shadow-md)", border: "1px solid var(--border)", padding: "1.5rem" },
+  pertHeader: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1.25rem" },
+  pertTitulo: { fontSize: "1rem", fontWeight: "700", color: "var(--text-primary)", marginBottom: "0.2rem" },
+  pertSubtitulo: { fontSize: "0.78rem", color: "var(--text-secondary)" },
+  vistaToggle: { display: "flex", gap: "0.3rem", backgroundColor: "var(--bg-surface-2)", borderRadius: "var(--radius-md)", padding: "0.25rem" },
+  vistaBtn: { padding: "0.4rem 0.9rem", borderRadius: "var(--radius-sm)", fontSize: "0.8rem", cursor: "pointer", fontWeight: "500", color: "var(--text-secondary)", backgroundColor: "transparent", border: "none" },
+  vistaBtnActivo: { backgroundColor: "var(--bg-surface)", color: "var(--text-primary)", fontWeight: "700", boxShadow: "var(--shadow-xs)" },
+  filtrosBar: { display: "flex", gap: "1.5rem", alignItems: "flex-end", flexWrap: "wrap", backgroundColor: "var(--bg-surface-2)", borderRadius: "var(--radius-md)", padding: "0.9rem 1.1rem", marginBottom: "1.25rem" },
+  filtroGrupo: { display: "flex", flexDirection: "column", gap: "0.4rem" },
+  filtroLabel: { fontSize: "0.7rem", fontWeight: "700", color: "var(--text-hint)", textTransform: "uppercase", letterSpacing: "0.5px" },
+  filtroOpciones: { display: "flex", gap: "0.3rem", flexWrap: "wrap" },
+  filtroBtn: { padding: "0.35rem 0.75rem", borderRadius: "var(--radius-md)", fontSize: "0.78rem", border: "1.5px solid var(--border)", color: "var(--text-secondary)", backgroundColor: "var(--bg-surface)", cursor: "pointer", fontWeight: "500" },
+  filtroBtnActivo: { backgroundColor: "var(--verde-claro)", border: "1.5px solid var(--verde)", color: "var(--verde-oscuro)", fontWeight: "700" },
+  filtroSelect: { padding: "0.38rem 0.75rem", borderRadius: "var(--radius-md)", fontSize: "0.78rem", border: "1.5px solid var(--border)", color: "var(--text-primary)", backgroundColor: "var(--bg-surface)", cursor: "pointer", minWidth: "155px" },
+  inputFecha: { padding: "0.38rem 0.6rem", borderRadius: "var(--radius-md)", fontSize: "0.78rem", border: "1.5px solid var(--border)", color: "var(--text-primary)", backgroundColor: "var(--bg-surface)", cursor: "pointer" },
+  btnLimpiar: { alignSelf: "flex-end", padding: "0.38rem 0.85rem", borderRadius: "var(--radius-md)", fontSize: "0.78rem", border: "1.5px solid var(--rojo)", color: "var(--rojo)", backgroundColor: "var(--rojo-claro)", cursor: "pointer", fontWeight: "600" },
+  pertLeyenda: { display: "flex", gap: "1.5rem", flexWrap: "wrap", paddingTop: "1rem", borderTop: "1px solid var(--border)", marginTop: "0.5rem" },
+  leyendaItem: { display: "flex", alignItems: "center", gap: "0.45rem", fontSize: "0.75rem", color: "var(--text-secondary)" },
+}
